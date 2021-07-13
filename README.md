@@ -1,3 +1,8 @@
+##LineUp
+![lineup-1](https://user-images.githubusercontent.com/68985427/125511497-6a326335-5e8b-476e-8c52-afbef4117390.PNG)
+![lineup-2](https://user-images.githubusercontent.com/68985427/125511515-231b0644-81ac-49c1-ba18-4750af80a5f8.PNG)
+
+A schedular app built using React, Redux and local stoage API
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
