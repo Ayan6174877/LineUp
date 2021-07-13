@@ -1,0 +1,23 @@
+span.work-theme {
+  background-color: blue;
+  color: white;
+}
+
+div.work-task {
+  border-top-width: 3px;
+  border-top-color: blue;
+}
+
+span.personal-theme {
+  background-color: orange;
+  color: white;
+}
+
+div.personal-task {
+  border-top-width: 3px;
+  border-top-color: orange;
+}
+
+div.active-navigation {
+  background-color: darkgray;
+}

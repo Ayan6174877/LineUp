@@ -1,0 +1,67 @@
+.header-top {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.left-section {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 15px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Logo-text {
+  font-size: 1.4em;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.color-red {
+  color: blue;
+}
+.middle-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.search-input {
+  width: 80%;
+  background-color: none;
+  border: none !important;
+  outline: none;
+  padding: 10px;
+}
+
+.search-input:hover {
+  border: none;
+}
+
+.right-section {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 15px;
+  float: right;
+  align-items: center;
+  max-width: 160px;
+}
+
+.avatar-color {
+  background-color: blueviolet;
+  color: white;
+}
+
+p.username {
+  margin-left: 5px;
+  font-size: 0.8em;
+  text-transform: capitalize;
+}

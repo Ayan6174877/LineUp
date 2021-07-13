@@ -1,0 +1,81 @@
+.tasks {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+}
+
+.task-item-div {
+  flex: 25%;
+  max-width: 330px;
+  margin: 15px;
+  display: block;
+  background-color: white;
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.task-item-div:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.task-item-content {
+  padding: 15px;
+}
+
+.task-item-content ul {
+  list-style: none;
+  display: block;
+}
+
+.task-item-content ul li {
+  padding: 10px 5px;
+}
+
+.task-item-content ul li:last-child {
+  padding: 5px 5px;
+  float: right;
+}
+
+span.task-type {
+  padding: 10px 15px;
+  font-size: 0.9em;
+  text-transform: capitalize;
+  border-radius: 7px;
+}
+
+.task-title {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.completed-task-true {
+  text-decoration: line-through;
+}
+
+.task-date {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.6em;
+}
+
+.undone-task {
+  color: lightgrey;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.undone-task:hover {
+  color: red;
+}
+
+.completed-task {
+  color: red;
+  user-select: none;
+  cursor: none;
+}

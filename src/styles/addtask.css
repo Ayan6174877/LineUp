@@ -1,0 +1,82 @@
+.modal-title {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  border: solid;
+  border-width: 1px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.12) transparent;
+}
+
+.modal-title h2 {
+  font-weight: 100;
+}
+
+.task-form {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  min-height: 300px;
+  max-height: 500px;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  overflow-y: auto;
+  justify-content: space-evenly;
+}
+
+.task-form input {
+  width: 100%;
+  font-size: 14px;
+  padding: 18px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+  transition: all 0.25s;
+  resize: none;
+}
+
+textarea {
+  border-color: inherit;
+}
+
+.task-form .select-time {
+  width: 100%;
+}
+.task-form .select {
+  width: 100%;
+  font-size: 14px;
+  border: solid 1px transparent;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.25s;
+  box-shadow: 0;
+}
+
+.task-form input:focus,
+.task-form textarea:focus,
+task-form .select:focus {
+  border-color: blueviolet;
+}
+
+.add-task-btn {
+  background-color: blueviolet;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  float: right;
+  margin-left: auto;
+  font-size: 18px;
+  transition: all 0.25s;
+}
+
+.go-back-btn {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: -5px;
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  padding: 6px 3px 3px 12px;
+  margin-right: 15px;
+}

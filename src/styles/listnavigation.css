@@ -1,0 +1,96 @@
+.list-navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 70px;
+  height: 90vh;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 260px;
+  height: 100vh;
+  /* background-color: #c0c0c0; */
+  background-color: white;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  transition: all 1s;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.top-title {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.create-task-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 10px 15px 10px 20px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: all 0.25s;
+}
+
+.create-task-button:hover {
+  background-color: whitesmoke;
+}
+
+.add-icon {
+  margin-left: auto;
+}
+
+.close-modal-btn {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.navigation-items {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
+  height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  /* background-color: #dcdcdc; */
+}
+
+.navigation-listitems {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  padding: 10px 20px;
+  align-items: center;
+  transition: all 0.25s;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.navigation-listitems:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.active-nav {
+  background-color: whitesmoke;
+  text-decoration: none;
+}
+
+.navigation-title {
+  font-size: 0.9em;
+  font-weight: 100;
+  float: left;
+}
+
+.total-task {
+  margin-left: auto;
+  font-size: 0.9em;
+}
