@@ -5,6 +5,7 @@ import ListNavigation from "./ListNavigation";
 import "../styles/main.css";
 import Header from "./Header";
 import TaskList from "./TaskList";
+import NotFound from "./NotFound";
 import {
   BrowserRouter as Router,
   Route,
@@ -65,6 +66,7 @@ function Main(props) {
             <Route exact path="/">
               <Redirect to="/tasks" />
             </Route>
+            <Route component={NotFound} />
           </Switch>
         </div>
       </div>
