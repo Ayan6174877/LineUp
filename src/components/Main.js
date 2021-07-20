@@ -63,7 +63,7 @@ function Main(props) {
                 <TaskList />
               </div>
             </Route>
-            <Route exact path="/">
+            <Route path="/">
               <Redirect to="/tasks" />
             </Route>
             <Route component={NotFound} />
